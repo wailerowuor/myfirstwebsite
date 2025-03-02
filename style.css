@@ -1,0 +1,100 @@
+/* Set a background color for the page */
+.body {
+    background-color: #f5e8e8f6;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 2.5em;
+    color: #444444;
+}
+
+/* Style the profile picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Style the bio text */
+.bio {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Style the hobbies list */
+.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies-list li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the email link */
+.email-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+    color:#333;
+}
+
+/* Style the download resume button */
+.resume-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+/* Make the layout responsive */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
+
